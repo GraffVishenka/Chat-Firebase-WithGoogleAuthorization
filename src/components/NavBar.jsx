@@ -9,7 +9,6 @@ import { Context } from '..';
 const NavBar = () => {
   const {auth} = useContext(Context);
   const [user] = useAuthState(auth);
-  const l = "l";
 
   return (
     <AppBar color="secondary" position="static">
